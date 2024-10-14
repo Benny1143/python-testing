@@ -15,7 +15,7 @@ classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python :: 3.8",
 ]
-dependencies = ["qiskit==1.2.*", "numpy==1.18.*"]
+dependencies = ["qiskit==1.2.*", "numpy==2.*"]
 
 [project.urls]
 Documentation = "https://github.com/benny/qiskit-quicscript-translator#readme"
