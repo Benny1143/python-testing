@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "qiskit-quicscript-translator"
+name = "qiskit_quicscript_translator"
 dynamic = ["version"]
 description = ''
 readme = "README.md"
@@ -37,11 +37,8 @@ parallel = true
 omit = ["src/qiskit_quicscript_translator/__about__.py"]
 
 [tool.coverage.paths]
-qiskit_quicscript_translator = [
-    "src/qiskit_quicscript_translator",
-    "*/qiskit-quicscript-translator/src/qiskit_quicscript_translator",
-]
-tests = ["tests", "*/qiskit-quicscript-translator/tests"]
+qiskit_quicscript_translator = ["src/qiskit_quicscript_translator"]
+tests = ["tests"]
 
 [tool.coverage.report]
 exclude_lines = ["no cov", "if __name__ == .__main__.:", "if TYPE_CHECKING:"]
