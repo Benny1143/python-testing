@@ -1,6 +1,8 @@
 from numpy import pi
 from qiskit import QuantumCircuit
-from QuiCGate import QuiCGate
+from qiskit_quicscript_translator.QuiCGate import QuiCGate
+
+__all__ = ["get_quic_circuit_string", "get_quic_circuit_file_string"]
 
 def transpile_circuit(circuit: QuantumCircuit) -> QuantumCircuit:
     r"""
